@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.wrap {
+	position:relative;
+	margin:0 auto;
+        /*replace 900px with your width*/
+	width:900px;
+	}
+
+	#header, #footer {
+		width:100%;
+		float:left;
+	}
+#footer {
+		position:fixed;
+		bottom:0;
+		z-index:999999;
+	}
+#header {
+    background-color:#274056;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:150px;
+    float:right;
+    padding:5px;	      
+}
+#section {
+    width:500px;
+    float:left;
+    padding:10px;
+text-align:left;	 
+}
+
+#footer {
+    background-color:#274056;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+</style>
+</head>
+<body>
+
+<div id="header">
+<h1>MySQL Workbench</h1>
+</div>
+
+<div id="nav">
+Home<br><a href
+Java<br>
+Git<br>
+MongoDB<br>
+MySQL Workbench<br>
+Spring Tool Suite<br>
+</div>
+
+<div id="section">
+<font color="black">
+
+<p><b><u>MySQL Workbench</b></u></p> 
+
+<p>1. Click <a href="http://dev.mysql.com/downloads/workbench/">here</a> to go to the website.</p>
+
+<p>2. Once on the website, find the Windows (x86, 64-bit) MSI Installer download, and click download.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/1_zpscul0l6z7.png" alt="Image" style="width:700px;height:358px;" />
+
+<p>3. Run the installer.</p>
+
+<p>4. If the installer gives you an error, download any and all prerequisites that it states. All prerequisites will be accompanied by a link to where to download them. </p>
+
+</font color>
+</div>
+
+<div id="footer">
+<body link="white">
+<a href="#" class="scrollup">Top of Page</a>
+</div>
+
+</body>
+</html>
