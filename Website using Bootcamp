@@ -1,0 +1,256 @@
+
+  <title>Infozen Installation Guides</title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ 
+</head>
+<style>
+body {
+        background-color:#558C89;
+} 
+</style>
+<body>
+<a src="http://api.ning.com/files/w3eiFFRDzzdCH93QopFipKQ1gig3pdpkO9xGpMhjKwyEh16bQ*kcyYxfhTMvM33z6VLYwU8qJHtcfLDWMoWIADe-AphnwwR7/SkyBlueSky.jpg">
+<nav class="navbar navbar-inverse navbar-fixed-top>
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="http://www.infozen.com/">Infozen</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav">
+    </div>
+  </div>
+</nav>
+  
+<div class="alert alert-info">
+
+  <strong>Hello!</strong> Here you can find any installation guide you would need at Infozen. Simply click on the application you need and then read and follow all directions given to you. 
+</div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          Java
+        </a><i class="indicator glyphicon glyphicon-chevron-up  pull-right"></i>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+        <font color="black">
+<p><u><b><center>Java  Download and Install</center></b></u></p>
+
+<p>1. Click <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">here</a> to go to the website.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic38_zpszswd8rrc.png" alt="Image" style="width:700px;height:55px;"/>
+
+<p>2. Find Java SE Development Kit 8u45 on the page and click the bubble saying &lsquo;Accept License Agreement&rsquo;.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic61_zpsyksrzzn6.png" alt="Image" style="width:700px;height:374px;"/>
+
+<p>3. Then click the hyperlink next to Windows x64 under Java SE Development Kit 8u45. The file will start to download.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic40_zps2jcaqqbf.png" alt="Image" style="width:548px;height:282px;"/>
+
+<p><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic41_zpsfos4hxsm.png" alt="Image"> </p>
+
+<p>4. Once the file is finished downloading, double click it to start the install process. Click next for the first slide and on the second slide make sure your screen looks like this. If it does, click yes. If it doesn&rsquo;t, change it to make it this.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic62_zpscqeob5wf.png" alt="Image" />
+
+<p>5. After clicking next on that screen, java will start to install. Click next on the destination folder (just remember where the file is). Now java will finish installing.</p>
+
+<p>6. Once java has finished installing, a screen that looks like this will pop up. Just click close to end the installation process.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic42_zpsazezssmj.png" alt="Image" />
+
+<p><b><u><center>Configure Java</center></p></b></u>
+
+<p>1. Now you have to click the windows button in the bottom left corner of your screen and right-click on computer. From here, you will click properties.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic43_zpsu0coij0g.png" alt="Image" />
+
+<p>2. Once you click properties, you will get a screen like this. From here, go to advanced system settings.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic44_zpsmbc3ffbv.png" alt="Image" style="width:700px;height:394px;"/>
+
+<p>3. From the advanced system settings screen, click environment variables.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic45_zpsebloqkxt.png" alt="Image" />
+
+<p>4. Now you have to click &lsquo;new&rsquo; under &lsquo;User Variables for (user)&rsquo;. Once you do that for variable name, put &lsquo;JAVA_HOME&rsquo;. For the value, you will have to find the path to your java file.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic47_zpsdlnnflbq.png" alt="Image" />
+
+<p> 5. To find the value, you will click your windows button in the bottom left-hand corner, and then click computer. Then click your hard disk drive, click &lsquo;Program Files&rsquo; (make sure you click the one without x86). Next you will click the file called &lsquo;jdk1.8.0_45&rsquo;.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic43_zpsu0coij0g.png" alt="Image" />
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic48_zpsgwco9ycz.png" alt="Image" style="width:700px;height:384px;" />
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic49_zpsruz3huhy.png" alt="Image" style="width:700px;height:384px;" />
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic50_zpsfzw51nju.png" alt="Image" style="width:700px;height:384px;" />
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic51_zpsc13siqur.png" alt="Image" style="width:700px;height:384px;" />
+
+<p>6. Here you will click the drop down arrow at the top of the page and then copy the path that is in the URL.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic52_zps1juasbao.png" alt="Image" style="width:700px;height:384px;" />
+
+<p>7. Then go back to the variable page. You will then paste the URL that you just coped into the variable value. Then click ok.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic53_zpsvwmgdfge.png" alt="Image" />
+
+<p>8. It should now show up under user variables.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic54_zpseh8bzwry.png" alt="Image" />
+
+<p>9. Now find the system variable &lsquo;Path&rsquo;. Click it and then click edit. Once you are on the edit screen, make sure that in the variable value line, there is &lsquo;%JAVA_HOME%\bin&rsquo;. If there isn&rsquo;t you will need to put it in after the first &lsquo;\bin&rsquo;. Then click ok.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic55_zpsuxy4tn85.png" alt="Image" />
+
+<p>10. You may now close all system windows for you are done with the installation. To make sure that the installation work, go to the command prompt. You can find this by clicking the windows button and putting command prompt in the search bar.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic56_zpszbwckuo5.png" alt="Image" />
+
+<p><b><u><center>Verify Java Version</center></p></b></u>
+
+<p> 1. From the command prompt screen, you will type &lsquo;java -version&rsquo;. Make sure you put a space in between java and the &lsquo;-&lsquo;symbol. Then hit enter. You should get a screen that looks like this.</p>
+
+<p><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic57_zpsofpoeysi.png" alt="Image" /></p>
+<p2>2. Check to see what version of java you are running. The version number will be beside where it says &lsquo;java version&rsquo;. It should say &lsquo;1.8.0_45&rsquo;. If it doesn&rsquo;t go back through the steps and make sure you did everything correctly. If it does, that means you have successfully finished installing java. </p>
+</font color>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+          Git
+        </a><i class="indicator glyphicon glyphicon-chevron-up  pull-right"></i>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+       <font color="black">
+
+<b><u><p>Installing Git</p></b></u>
+
+<p>1. Click <a href="https://git-scm.com/downloads">here</a> to go to the website.</p>
+
+<p>2. Click the download for windows button on the right side of the page.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic58_zpshmctzqlj.png" alt="Image" style="width:700px;height:381px;"
+
+<p>3. Once it has finished downloading, double click the file.</p>
+
+<p>4. Click next to start the setup. Read through and then click next on the license.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic59_zpscyupevgj.png" alt="Image" />
+
+<p>5. For the components slide, don&rsquo;t change anything. If you want to add a quick launch button for Git or add a desktop icon for Git, you can select that, but don&rsquo;t change anything else. Then click next.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic60_zps7syyivpw.png" alt="Image" />
+
+<p>6. Make sure that the bubble highlighted is &ldquo;Use Git from Git Bash only&rdquo;. Then click next. On this slide, make sure the bubble highlighted is &ldquo;Checkout Windows-style, commit Unix-style line endings&rdquo;. Then click next. Git will start to install now.</p>
+
+<p2>7. Click finish and Git is now installed onto your computer. </p>
+
+</font color>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+          Spring Tool Suite
+        </a><i class="indicator glyphicon glyphicon-chevron-up pull-right"></i>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+      <font color="black">
+<p><u><b><center> Installation</center></b></u></p>
+
+<p>1. Click <a href="http://spring.io/tools/sts\">here</a> to go to the website.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic64_zpssiyeqdmm.png" alt="Image" style="width:700px;height:381px;"/>
+
+<p> 2. Once downloaded, right click the file and select 'extract all'. Make sure the folder is accessible and then click extract.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic67_zps50c6zocc.png" alt="Image" style="width:700px;height:383px;" />
+
+<p> 3. Once the file is open, click 'sts-bundle'. After that, you will click &lsquo;sts-3.7.0.RELEASE'.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic65_zpsi6jfhsgj.png" alt="Image" style="width:700px;height:384px;" />
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic66_zps3yggrvpj.png" alt="Image" style="width:700px;height:384px;" />
+
+<p2> 4. Then click STS (the application not the configuration settings) to start up the application. </p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic68_zpsn8o52cru.png" alt="Image" style="width:700px;height:384;" />
+
+</font color>
+   </div>
+  </div>
+ </div>
+ <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+          MongoDB
+        </a><i class="indicator glyphicon glyphicon-chevron-up  pull-right"></i>
+      </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse">
+      <div class="panel-body">
+<font color="black">
+<p><u><b><center> Installation</center></b></u></p></div>
+
+<p>1. Click https://www.mongodb.org/downloads to go to the website.</p>
+
+<p> 2. From here, make sure that the download is the 'Windows 64-bit 2008 R2+' version. Then click download.</p>
+
+<p><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic69_zpsqwa0uaac.png" alt="Image" style="width:700px;height:224px" /></p>
+
+<p> 3. Once the file has downloaded, click it to start the installation process. Make sure that you select the complete option and not the custom one.</p>
+
+<p><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic70_zpsr0sd8j3s.png" alt="Image" /></p>
+
+<p2> 4. After clicking install you will have to wait about 5-10 seconds and then you will be done with installing MongoDB. </p>
+</font color>
+   </div>
+  </div>
+ </div>
+ <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+          MySQL Workbench
+        </a><i class="indicator glyphicon glyphicon-chevron-up  pull-right"></i>
+      </h4>
+    </div>
+    <div id="collapseFive" class="panel-collapse collapse">
+      <div class="panel-body">
+<font color="black">
+
+<p><b><u>MySQL Workbench</b></u></p> 
+
+<p>1. Click <a href="http://dev.mysql.com/downloads/workbench/">here</a> to go to the website.</p>
+
+<p>2. Once on the website, find the Windows (x86, 64-bit) MSI Installer download, and click download.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/1_zpscul0l6z7.png" alt="Image" style="width:700px;height:358px;" />
+
+<p>3. Run the installer.</p>
+
+<p2>4. If the installer gives you an error, download any and all prerequisites that it states. All prerequisites will be accompanied by a link to where to download them. </p>
+
+</font color>
+   </div>
+  </div>
+ </div>
