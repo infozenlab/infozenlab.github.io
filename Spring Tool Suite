@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.wrap {
+	position:relative;
+	margin:0 auto;
+        /*replace 900px with your width*/
+	width:900px;
+	}
+
+	#header, #footer {
+		width:100%;
+		float:left;
+	}
+#footer {
+		position:fixed;
+		bottom:0;
+		z-index:999999;
+	}
+#header {
+    background-color:#274056;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:150px;
+    float:right;
+    padding:5px;	      
+}
+#section {
+    width:500px;
+    float:left;
+    padding:10px;
+text-align:left;	 
+}
+
+#footer {
+    background-color:#274056;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+p2 {
+ padding-bottom: 1cm;
+}
+</style>
+</head>
+<body>
+
+<div id="header">
+<h1>Spring Tool Suite</h1>
+</div>
+
+<div id="nav">
+Home<br><a href
+Java<br>
+Git<br>
+MongoDB<br>
+MySQL Workbench<br>
+Spring Tool Suite<br>
+</div>
+
+<div id="section">
+<font color="black">
+<p><u><b><center> Installation</center></b></u></p>
+
+<p>1. Click <a src="http://spring.io/tools/sts\">here</a> to go to the website.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic64_zpssiyeqdmm.png" alt="Image" style="width:700px;height:381px;"/>
+
+<p> 2. Once downloaded, right click the file and select 'extract all'. Make sure the folder is accessible and then click extract.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic67_zps50c6zocc.png" alt="Image" style="width:700px;height:383px;" />
+
+<p> 3. Once the file is open, click 'sts-bundle'. After that, you will click &lsquo;sts-3.7.0.RELEASE'.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic65_zpsi6jfhsgj.png" alt="Image" style="width:700px;height:384px;" />
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic66_zps3yggrvpj.png" alt="Image" style="width:700px;height:384px;" />
+
+<p2> 4. Then click STS (the application not the configuration settings) to start up the application. </p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic68_zpsn8o52cru.png" alt="Image" style="width:700px;height:384;" />
+
+</font color>
+</div>
+
+<div id="footer">
+<body link="white">
+<a href="#" class="scrollup">Top of Page</a>
+</div>
+
+</body>
+</html>
