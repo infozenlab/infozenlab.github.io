@@ -42,7 +42,7 @@
     width:500px;
     float:left;
     padding:10px;
-text-align:center;	 
+text-align:left;	 
 }
 
 #footer {
@@ -74,9 +74,7 @@ p2 {
 
 <div id="section">
 <font color="black">
- <center>
 <div class="container">
-
   <div class="panel panel-default">
     <div class="panel-body"> <p><u><b><center> Installation</center></b></u></p></div>
 
@@ -94,7 +92,6 @@ p2 {
 </div>
 
 </div>
- </center>
 </font color>
 </div>
 
