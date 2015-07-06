@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.wrap {
+	position:relative;
+	margin:0 auto;
+        /*replace 900px with your width*/
+	width:900px;
+	}
+
+	#header, #footer {
+		width:100%;
+		float:left;
+	}
+#footer {
+		position:fixed;
+		bottom:0;
+		z-index:999999;
+	}
+#header {
+    background-color:#274056;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:150px;
+    float:right;
+    padding:5px;	      
+}
+#section {
+    width:500px;
+    float:left;
+    padding:10px;
+text-align:left;	 
+}
+
+#footer {
+    background-color:#274056;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+p2 {
+ padding-bottom: 2cm;
+}
+</style>
+</head>
+<body>
+
+<div id="header">
+<h1>MongoDB</h1>
+</div>
+
+<div id="nav">
+Home<br><a href
+<a href="https://github.com/infozenlab/infozenlab.github.io/blob/428891d8e1120a02596d4ee5b319a42794b1c5c4/Java%20Page">Java</a> <br>
+Git<br>
+MongoDB<br>
+MySQL Workbench<br>
+Spring Tool Suite<br>
+</div>
+
+<div id="section">
+<font color="black">
+<p><u><b><center> Installation</center></b></u></p>
+
+<p>1. Click https://www.mongodb.org/downloads to go to the website.</p>
+
+<p> 2. From here, make sure that the download is the 'Windows 64-bit 2008 R2+' version. Then click download.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic69_zpsqwa0uaac.png" alt="Image" style="width:700px;height:224px" />
+
+<p> 3. Once the file has downloaded, click it to start the installation process. Make sure that you select the complete option and not the custom one.</p>
+
+<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic70_zpsr0sd8j3s.png" alt="Image" />
+
+<p2> 4. After clicking install you will have to wait about 5-10 seconds and then you will be done with installing MongoDB. </p>
+
+</font color>
+</div>
+
+<div id="footer">
+<body link="white">
+<a href="#" class="scrollup">Top of Page</a>
+</div>
+
+</body>
+</html>
