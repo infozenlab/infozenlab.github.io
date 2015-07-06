@@ -55,6 +55,12 @@ text-align:left;
 p2 {
  padding-bottom: 2cm;
 }
+
+.center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}
 </style>
 </head>
 <body>
@@ -74,7 +80,7 @@ p2 {
 
 <div id="section">
 <font color="black">
-<div class="container">
+<div class="container center">
   <div class="panel panel-default">
     <div class="panel-body"> <p><u><b><center> Installation</center></b></u></p></div>
 
