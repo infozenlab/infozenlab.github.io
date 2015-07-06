@@ -75,7 +75,7 @@ p2 {
 <div id="section">
 <font color="black">
 <div class="container">
- 
+ <center>
   <div class="panel panel-default">
     <div class="panel-body"> <p><u><b><center> Installation</center></b></u></p></div>
 
@@ -91,6 +91,7 @@ p2 {
 
 <p2> 4. After clicking install you will have to wait about 5-10 seconds and then you will be done with installing MongoDB. </p>
 </div>
+</center>
 </div>
 </font color>
 </div>
