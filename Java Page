@@ -33,7 +33,7 @@
     padding:5px;	      
 }
 #section {
-    width:1000px;
+    width:1760px;
     float:left;
     padding:10px;
 text-align:left;	 
