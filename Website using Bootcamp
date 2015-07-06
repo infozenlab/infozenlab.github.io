@@ -122,6 +122,10 @@ body {
 <p><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic57_zpsofpoeysi.png" alt="Image" /></p>
 <p2>2. Check to see what version of java you are running. The version number will be beside where it says &lsquo;java version&rsquo;. It should say &lsquo;1.8.0_45&rsquo;. If it doesn&rsquo;t go back through the steps and make sure you did everything correctly. If it does, that means you have successfully finished installing java. </p>
 </font color>
+<div id="footer">
+<body link="blue">
+<a href="#" class="scrollup">Top of Page</a>
+</div>
       </div>
     </div>
   </div>
@@ -160,6 +164,10 @@ body {
 <p2>7. Click finish and Git is now installed onto your computer. </p>
 
 </font color>
+<div id="footer">
+<body link="blue">
+<a href="#" class="scrollup">Top of Page</a>
+</div>
       </div>
     </div>
   </div>
@@ -195,6 +203,10 @@ body {
 <img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic68_zpsn8o52cru.png" alt="Image" style="width:700px;height:384;" />
 
 </font color>
+<div id="footer">
+<body link="blue">
+<a href="#" class="scrollup">Top of Page</a>
+</div>
    </div>
   </div>
  </div>
@@ -223,6 +235,10 @@ body {
 
 <p2> 4. After clicking install you will have to wait about 5-10 seconds and then you will be done with installing MongoDB. </p>
 </font color>
+<div id="footer">
+<body link="blue">
+<a href="#" class="scrollup">Top of Page</a>
+</div>
    </div>
   </div>
  </div>
@@ -251,6 +267,11 @@ body {
 <p2>4. If the installer gives you an error, download any and all prerequisites that it states. All prerequisites will be accompanied by a link to where to download them. </p>
 
 </font color>
+<div id="footer">
+<body link="blue">
+<a href="#" class="scrollup">Top of Page</a>
+</div>
    </div>
   </div>
  </div>
+
