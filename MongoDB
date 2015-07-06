@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+ <title>Bootstrap Case</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <style>
 .wrap {
 	position:relative;
@@ -68,7 +74,10 @@ p2 {
 
 <div id="section">
 <font color="black">
-<p><u><b><center> Installation</center></b></u></p>
+<div class="container">
+ 
+  <div class="panel panel-default">
+    <div class="panel-body"> <p><u><b><center> Installation</center></b></u></p></div>
 
 <p>1. Click https://www.mongodb.org/downloads to go to the website.</p>
 
@@ -81,7 +90,8 @@ p2 {
 <img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic70_zpsr0sd8j3s.png" alt="Image" />
 
 <p2> 4. After clicking install you will have to wait about 5-10 seconds and then you will be done with installing MongoDB. </p>
-
+</div>
+</div>
 </font color>
 </div>
 
