@@ -7,7 +7,7 @@
 </head>
 <style>
 body {
-        background-color:#558C89;
+        background-color:#285e8e;
 } 
 </style>
 <body>
@@ -27,13 +27,14 @@ body {
 
   <strong>Hello!</strong> Here you can find any installation guide you would need at Infozen. Simply click on the application you need and then read and follow all directions given to you. 
 </div>
-
+<div class="custom">
+    <accordion>
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
           Java
-        </a><i class="indicator glyphicon glyphicon-chevron-up  pull-right"></i>
+        </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
       </h4>
     </div>
     <div id="collapseOne" class="panel-collapse collapse">
@@ -134,7 +135,7 @@ body {
       <h4 class="panel-title">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
           Git
-        </a><i class="indicator glyphicon glyphicon-chevron-up  pull-right"></i>
+        </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
       </h4>
     </div>
     <div id="collapseTwo" class="panel-collapse collapse">
@@ -176,7 +177,7 @@ body {
       <h4 class="panel-title">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
           Spring Tool Suite
-        </a><i class="indicator glyphicon glyphicon-chevron-up pull-right"></i>
+        </a><i class="indicator glyphicon glyphicon-chevron-down pull-right"></i>
       </h4>
     </div>
     <div id="collapseThree" class="panel-collapse collapse">
@@ -215,7 +216,7 @@ body {
       <h4 class="panel-title">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
           MongoDB
-        </a><i class="indicator glyphicon glyphicon-chevron-up  pull-right"></i>
+        </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
       </h4>
     </div>
     <div id="collapseFour" class="panel-collapse collapse">
@@ -223,7 +224,7 @@ body {
 <font color="black">
 <p><u><b><center> Installation</center></b></u></p></div>
 
-<p>1. Click https://www.mongodb.org/downloads to go to the website.</p>
+<p>1. Click <a href="https://www.mongodb.org/downloads">here</a> to go to the website.</p>
 
 <p> 2. From here, make sure that the download is the 'Windows 64-bit 2008 R2+' version. Then click download.</p>
 
@@ -247,7 +248,7 @@ body {
       <h4 class="panel-title">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
           MySQL Workbench
-        </a><i class="indicator glyphicon glyphicon-chevron-up  pull-right"></i>
+        </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
       </h4>
     </div>
     <div id="collapseFive" class="panel-collapse collapse">
