@@ -300,6 +300,28 @@ body {
 </div>
 </div>
 </div>
+ <accordion>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFourteen">
+          2. Configure Server
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFourteen" class="panel-collapse collapse">
+      <div class="panel-body">
+<p><left>1. Open up Spring Tool Suite. When asked for where you want your make sure you use 'C:\users\username'. This will come up later on when actually using the application.</p></left>
+<p><left>2. Once the application is opened, find the server tab and right click on the screen. Once you right click, choose new, then click server.</p></left>
+<p><left>3. Click 'Pivotal tc Server v3.0 - v3.1' and then click next.</p></left>
+<p><left>4. Select creat new instance and then click next.</p></left>
+<p><left>5. Name your server, then select the 'base' template. Then click finished.</p></left>
+<p><left>6. Once it has been made, find it under the servers' tab. Right click the server, and then select start.</p></left>
+<p><left>7. Next, go to your web browser and type in http://localhost:8080 to the url. After this, hit enter to see if creating the server worked. You should get a screen that looks like this:</p.</left>
+<p><a href="#" class="scrollup">Top of Page</a></p></center>
+</div>
+</div>
+</div>
 </div>
 </div>
 <div class="panel-body">
@@ -342,13 +364,55 @@ body {
   <div class="panel panel-default">
     <div class="panel-heading">
      <center><h4 class="panel-title">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseNine">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSixteen">
          Code
         </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
       </h4></center>
     </div>
-    <div id="collapseNine" class="panel-collapse collapse">
+    <div id="collapseSixteen" class="panel-collapse collapse">
       <div class="panel-body">
+ <accordion>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+     <center><h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeventeen">
+         Create SSH Key
+        </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+      </h4></center>
+    </div>
+    <div id="collapseSeventeen" class="panel-collapse collapse">
+      <div class="panel-body">
+<p><left>1. Open up gitbash.</p></left>
+<p><left>2. Type in 'ssh-keygen -t rsa -C "nrotondaro@infozen.com"'. Then hit enter. Just hit enter on the file loation and type in a passcode if you would like (not necessary).</p></left>
+<p><left>3. Now go to the key location. It should be under 'C:\users\username\.ssh'. Once there, find the 'id_rsa.pub' file and open that with notepad.</p></left>
+<p><left>4. Copy all the text whithin the file and then open up your browser. From you browser go to "iz-gitlab". Sign in and then go to profile settings. From there, click SSH keys.</p></left>
+<p><left>5. Click the add SSH Key button, and then paste the text you copied earlier into the key box. If it doesn't automatically make a title, make one yourself and then click add key.</p></left> 
+</div>
+</div>
+</div>
+<accordion>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <center><h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFifteen">
+         Ce-Tr-Broker
+        </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+      </h4></center>
+    </div>
+    <div id="collapseFifteen" class="panel-collapse collapse">
+      <div class="panel-body">
+<p><left>1. Open up Spring Tool Suite. Make sure your workspace is 'C:\users\username'.</p></left>
+<p><left>2. Once in the application, right click under 'Package Explorer' and click import.</p></left>
+<p><left>3. Once you click import, a screen will pop up asking from where you want to import. Click the 'Git' folder, and then click 'Projects from Git'.</p></left>
+<p><left>4. Then click 'Clone URI'.</p></left>
+<p><left>5. Next you will paste 'git@iz-gitlab:ccontrol/identrix-ce-tr-broker.git' into the URI and then click next.</p></left>
+<p><left>6. You now will need to deselect feature and master, leaving dev the only one still marked. Then click next.</p></left>
+<p><left>7.
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -366,6 +430,7 @@ body {
     </div>
     <div id="collapseTen" class="panel-collapse collapse">
       <div class="panel-body">
+
 </div>
 </div>
 </div>
@@ -375,7 +440,6 @@ body {
 </body>
 
  
-
 
 
 
