@@ -44,7 +44,7 @@ body {
     <div class="panel-heading">
       <center><h1 class="panel-title">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-          Tools
+          Install Tools
         </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
       </h1></center>
     </div>
@@ -251,15 +251,63 @@ body {
       <div class="panel-body">
 <left><p>1. Click <a href="https://www.mongodb.org/downloads">here</a> to go to the website.</p>
 
-<p> 2. From here, make sure that the download is the 'Windows 64-bit 2008 R2+' version. Then click download.</p></left>
+<p>2. From here, make sure that the download is the 'Windows 64-bit 2008 R2+' version. Then click download.</p></left>
 
 <center><p><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic69_zpsqwa0uaac.png" alt="Image" style="width:700px;height:224px" /></p></center>
 
-<left><p> 3. Once the file has downloaded, click it to start the installation process. Make sure that you select the complete option and not the custom one.</p></left>
+<left><p>3. Once the file has downloaded, click it to start the installation process. Make sure that you select the complete option and not the custom one.</p></left>
 
 <center><p><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic70_zpsr0sd8j3s.png" alt="Image" /></p></center>
 
-<left><p2> 4. After clicking install you will have to wait about 5-10 seconds and then you will be done with installing MongoDB. </p></left>
+<left><p2>4. After clicking install you will have to wait about 5-10 seconds and then hit the windows button and type in 'cmd.exe'. Then push ctrl-shift-enter to run as administrator.</p></left>
+<left><p>5. Type in 'msiexec.exe' and hit enter.</left></p>
+<left><p>6. For the next step, hit enter after both '^' and then hit enter. You will type the following:</p></left>
+<p><center><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic98_zpsscd3kisx.png" alt="Image" /></center></p>
+<center><p><a href="#" class="scrollup">Top of Page</a></p></center>
+</div>
+</div>
+</div>
+ <accordion>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentyseven">
+          2. Configure MongoDB
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwentyseven" class="panel-collapse collapse">
+      <div class="panel-body">
+<p><left>1. Open command prompt and type in "md \data\db". Then type in "C:\mongodb\server\3.0\bin\mongod.exe".</p></left>
+<p><center><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic99_zps2ciij2um.png" alt="Image" /></p></center>
+<p><left>2. Open a second command prompt and type in "C:\mongodb\server\3.0\bin\mongo.exe". Once you do this, you should see that the network accepted your connection on your other command prompt screen. </p></left>
+<p><center><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic100_zpsxriliwpt.png" alt="Image" /></p></center>
+<center><p><a href="#" class="scrollup">Top of Page</a></p></center>
+</div>
+</div>
+</div>
+ <accordion>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentyeight">
+          3. Configure MongoDB As Windows Server
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwentyeight" class="panel-collapse collapse">
+      <div class="panel-body">
+<p><left>1. Push the windows button and type in 'cmd.exe'. Then push ctrl-shift-enter to run as administrator.</p></left>
+<p><left>2. You will now have to create some files. First, type in 'mkdir c:\data\db'. Then type in 'mkdir c:\data\log'.</p></left>
+<p><center><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic102_zpsmpt6tuju.png" alt="Image" /></p></center>
+<p><left>3. Now you must go to your MongoDB file in your computer and create a file called 'Mongo.cfg'. Then open it up and type this into it:</p></left>
+<p><center><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic108_zpspfgrhkmh.png" alt="Image" /></center></p>
+<p><left>4. Next, type in this code into the command prompt.</p></left>
+<p><center><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic105_zpsrhrwpazz.png" alt="Image" /></center></p>
+<p><left>5. After that, type in 'net start Mongo' to begin the program.</p></left>
+<p><center><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic106_zps19fhokbt.png" alt="Image" /></center></p>
+<p><left>6. If you want to stop the application, type 'net stop Mongo'.</p></left>
+<p><center.<img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic107_zpsiibvycy2.png" alt="Image" /></center></p>
 <center><p><a href="#" class="scrollup">Top of Page</a></p></center>
 </div>
 </div>
@@ -366,13 +414,14 @@ body {
 </div>
 </div>
 </div>
+</div>
 <div class="container">
  <accordion>
   <div class="panel panel-default">
     <div class="panel-heading">
      <center><h4 class="panel-title">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSixteen">
-         Code
+         Import Code From GitLab
         </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
       </h4></center>
     </div>
@@ -712,7 +761,7 @@ body {
     <div class="panel-heading">
       <center><h4 class="panel-title">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">
-         Run
+         Initialize Application With Data
         </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
       </h4></center>
     </div>
