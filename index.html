@@ -429,7 +429,7 @@ body {
 <p><center><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic120_zpsrytxkodj.png" alt="Image" /></p></center>
 <p><left>5. Click execute on the next page and then, once it is done, click next. On the configuration screen, make sure your config type is development machine. Then click next.</p></left>
 <p><center><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic121_zpskd3evyxv.png" alt="Image" /></p></center>
-<p><left>6. Create a root password, then click next. Once on the next screen, make sure the first box is checked and then click next.</p></left>
+<p><left>6. Make the root password 'admin', then click next. Once on the next screen, make sure the first box is checked and then click next.</p></left>
 <p><center><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic122_zpsn9e7yo5r.png" alt="Image" /></p></center>
 <p><left>7. Click execute > finish > next > finish > execute > next > finish.</p></left>
 <center><p><a href="#" class="scrollup">Top of Page</a></p></center>
@@ -820,8 +820,19 @@ body {
   <div class="panel panel-default">
     <div class="panel-heading">
       <center><h4 class="panel-title">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThirtytwo">
          Initialize Application With Data
+        </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+      </h4></center>
+    </div>
+    <div id="collapseThirtytwo" class="panel-collapse collapse">
+      <div class="panel-body">
+<accordion>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <center><h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">
+         Initialize MongoDB With Data
         </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
       </h4></center>
     </div>
@@ -833,6 +844,36 @@ body {
 <center><p><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic113_zps2k3oytaj.png" alt="Image" /></center></p>
 <p><left>3. Next go to BaseSponsorInitializerSuite.java and right click it. Then click run as> JUI Test.</p></left>
 <p><center><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic115_zps0bmmmmt3.png" alt="Image" /></center></p>
+<center><p><a href="#" class="scrollup">Top of Page</a></p></center>
+</div>
+</div>
+</div>
+<accordion>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <center><h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThirtythree">
+         Initialize MySQL With Data
+        </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+      </h4></center>
+    </div>
+    <div id="collapseThirtythree" class="panel-collapse collapse">
+      <div class="panel-body">
+<p><left>1. Hit the windows button > all programs > MySQL > MySQLWorkbench 6.3 CE.</p></left>
+<p><center><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic123_zpsgoew9fao.png" alt="Image" /></p></center>
+<p><left>2. Click the box and enter in the password (admin). Next you will have to create a new schema.</p></left>
+<p><center><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic124_zpsrstmktrf.png" alt="Image" /></center></p>
+<p><left>3. Name the schema 'mydatabase' and then click apply > apply > finish.</p></left>
+<p><left>4. Then right click it on the left-hand side, and make it the default schema.</p></left>
+<p><left>5. Next, open up Spring Tool Suite and then click > initializer > src > database.</p></left>
+<p><left>6. Drag and drop 'activiti-5.15-create-mysql.sql', 'create-storedProcedures.sql', and 'create-views.sql' into the workbench.</p></left>
+<p><center><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic125_zpsdt7bolci.png" alt="Image" /></p></center>
+<p><left>7. Then select all the text in each file, and then click this icon.</p></center>
+<p><center><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic126_zpsylkbedoo.png" alt="Image" /></p></center>
+<center><p><a href="#" class="scrollup">Top of Page</a></p></center>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -856,7 +897,6 @@ body {
 </body>
 
  
-
 
 
 
