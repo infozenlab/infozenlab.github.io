@@ -978,7 +978,7 @@ body {
     <div class="panel-body">
       <center><h4 class="panel-title">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFourty">
-         <font color=white><b>Create Organization</font color></b>
+         <font color=white><b>1. Create Organization</font color></b>
         </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
       </h4></center>
     </div>
@@ -997,7 +997,7 @@ body {
     <div class="panel-body">
       <center><h4 class="panel-title">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFourtyone">
-         <font color=white><b>Create Packages</font color></b>
+         <font color=white><b>2. Create Packages</font color></b>
         </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
       </h4></center>
     </div>
@@ -1016,7 +1016,7 @@ body {
     <div class="panel-body">
       <center><h4 class="panel-title">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThirtynine">
-        <font color=white><b>Register People</font color></b>
+        <font color=white><b>3. Register People</font color></b>
         </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
       </h4></center>
     </div>
@@ -1031,6 +1031,27 @@ body {
 </div>
 </div>
 </div>
+<accordion>
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <center><h4 class="panel-title">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFourtytwo">
+         <font color=white><b>4. Create Identity Events</font color></b>
+        </a><i class="indicator glyphicon glyphicon-chevron-down  pull-right"></i>
+      </h4></center>
+    </div>
+    <div id="collapseFourtytwo" class="panel-collapse collapse">
+      <div class="panel-body">
+<p><left>1. Now you will have to create a spread sheet of all the people you just added inlcuding the Input Request ID, first and last name (middle if they have one), SSN, PUID, minimum search confidence, input alert sources, input alert frequency, search confidence score, alert type, source, alert match name, date of alert, name, DOB, and address. Below is a sample spreadsheet of what it should look like.</p></left>
+<p><left><form method="get" action="https://www.dropbox.com/s/v88uqkwr7cv3vj0/identityevents.csv?dl=0">
+<button type="submit">Download Sample Spreadsheet</button></form></p></left>
+<p><left>2. Save the file as (filename.csv).</p></left>
+<p><left>3. Now open up command prompt and type in the following: gpg -e -o filename.csv.gpg -r InfoZenBAKey filename.csv. Once you type that in and hit enter. Enter yes then.</p></left>
+<p><left>4. Now go to the file you just made and make it a zip file by right clicking it and then go to send to > compressed folder.</p></left>
+<p><center><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic139_zpsl2udhlea.png" alt="Image" /></p></center>
+<p><left>5. Go to your local host server and go to admin > Events, Alerts, and Identities > Upload Identity Events File.</p></left>
+<p><center><img src="http://i304.photobucket.com/albums/nn197/nrotondaro/pic140_zpsmjer8yc9.png" alt="Image" /></p></center>
+<p><left>6. Choose the zip file, and then click upload.</p></left>
 </div>
 </div>
 </div>
@@ -1041,8 +1062,5 @@ body {
 </div>
 </div>
 </body>
-
- 
-
 
 
